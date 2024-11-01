@@ -672,21 +672,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2024-10-20
+                    2024-11-01
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.8k
+                    2.9k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    9 分
+                    10 分
                 </div>
                 
 
@@ -704,7 +704,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id=""><a href="#" class="headerlink" title=""></a></h2><h2 id="1-Post-和-Get"><a href="#1-Post-和-Get" class="headerlink" title="1. Post 和 Get"></a>1. Post 和 Get</h2><ol>
+                <h2 id="1-Post-和-Get"><a href="#1-Post-和-Get" class="headerlink" title="1. Post 和 Get"></a>1. Post 和 Get</h2><ol>
 <li><strong>传参方式：</strong>get请求的参数通过URL传递；post请求的参数放在request body（请求体）中传递。</li>
 <li><strong>数据大小：</strong>post请求发送的数据没有限制，可以发送更大的数据；而get请求由于URL长度的限制，发送的数据量有限。</li>
 <li><strong>数据类型：</strong>post请求能发送更多的数据类型，没有限制；get请求只能发送ASCLL字符。</li>
@@ -850,11 +850,11 @@
 <h2 id="7-接口和抽象类"><a href="#7-接口和抽象类" class="headerlink" title="7. 接口和抽象类"></a>7. 接口和抽象类</h2><p><strong>不同点：</strong></p>
 <ol>
 <li><p>关键字不同：</p>
-<pre><code>  ① 继承抽象类的关键字是extends，而实现接口的关键字是implements
+<pre><code>  1. 继承抽象类的关键字是extends，而实现接口的关键字是implements
 </code></pre>
 </li>
 </ol>
-<p>​         ②定义抽象类的关键字是abstract class，而定义接口的关键字是interface</p>
+<p>​         2. 定义抽象类的关键字是abstract class，而定义接口的关键字是interface</p>
 <ol start="2">
 <li><p>权限修饰不同：抽象方法可以有public、protected和default这些修饰符（缺省情况下默认为public），而接口方法只能是public ;</p>
 </li>
@@ -891,6 +891,13 @@
 <h2 id="8-Java三大特性"><a href="#8-Java三大特性" class="headerlink" title="8. Java三大特性"></a>8. Java三大特性</h2><p><strong>封装：</strong>使用private关键字，让对象私有，防止无关的程序去使用。</p>
 <p><strong>继承：</strong>继承某个类，使子类可以使用父类的属性和方法。</p>
 <p><strong>多态：</strong>同一个行为，不同的子类具有不同的表现形式。</p>
+<h2 id="9-Cookie和Session的区别"><a href="#9-Cookie和Session的区别" class="headerlink" title="9. Cookie和Session的区别"></a>9. Cookie和Session的区别</h2><ol>
+<li>Cookie可以存储在浏览器或者本地，Session只能存在服务器</li>
+<li>Session 能够存储任意的 java 对象，Cookie 只能存储 String 类型的对象</li>
+<li>Session比Cookie更具有安全性（Cookie有安全隐患，通过拦截或本地文件找得到你的Cookie后可以进行攻击）</li>
+<li>Session占用服务器性能，Session过多，增加服务器压力</li>
+<li>单个Cookie保存的数据不能超过4K，很多浏览器都限制一个站点最多保存20个Cookie，Session是没有大小限制和服务器的内存大小有关</li>
+</ol>
 
                 
             </div>
@@ -1770,7 +1777,7 @@ new Valine({
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">19.1k</span>&nbsp;字
+                class="white-color">19.2k</span>&nbsp;字
             
             
             
